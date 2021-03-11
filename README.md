@@ -4,6 +4,7 @@
 ## Directory Structure
 In order to be able to expand in the future, we are creating the following directory structure in order to manage specific configuration in specific providers and regions. The directory structure is as follows:
 
+```bash
 terraform-aws
 ├── <cloud provider>
 │   ├── <region> (ex. us-east-1)
@@ -16,3 +17,4 @@ terraform-aws
 │   │   └── <other environments>
 │   ├── ...
 │   └── <other regions>
+```
